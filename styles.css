@@ -287,7 +287,7 @@ img {
     color: #f0800e;
 }
 
-.what-i-do .fa {
+.what-i-do .fa, .what-i-do .fas {
     color: #153d6b;
     margin: 0 auto 30px;
 }
@@ -464,7 +464,7 @@ img {
     justify-content: space-around;
 }
 
-.social .fa {
+.social .fab {
     font-size: 1.8em;
     color: #123660;
 }
@@ -494,9 +494,9 @@ img {
     }
 }
 
-.social .fa:hover,
-.social .fa:focus,
-.social .fa:active {
+.social .fab:hover,
+.social .fab:focus,
+.social .fab:active {
     color: #f0800e;
     -webkit-animation: spin 1.5s linear infinite;
     -moz-animation: spin 1.5s linear infinite;
@@ -513,27 +513,6 @@ footer {
     color: #dbedf4;
     text-align: center;
 }
-
-/* go to top button */
-
-/*
-#top-button {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99;
-    border: 2px solid #05064d;
-    outline: none;
-    background-color: transparent;
-    color: #05064d;
-    cursor: pointer;
-    padding: 10px 12px;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-*/
 
 #go-top-button {
     display: none;
